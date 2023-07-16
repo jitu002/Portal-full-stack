@@ -286,6 +286,7 @@ button{
   border-radius: 15px;
   height: 45px;
   background-color: #010f1b;
+  color: aliceblue;
 }
 table{
     border-collapse: collapse;
