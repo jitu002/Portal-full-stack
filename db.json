@@ -1,0 +1,30 @@
+{
+  "student": [
+    {
+      "name": "Ajit Kumar Mishra",
+      "email": "ajit@gmail.com",
+      "age": "19",
+      "class": "3",
+      "subject": "6",
+      "usname": "ajit",
+      "password": "1234",
+      "id": 1
+    },
+    {
+      "name": "John Clark",
+      "email": "john@gmail.com",
+      "age": "17",
+      "class": "1",
+      "subject": "4",
+      "usname": "john",
+      "password": "super",
+      "id": 2
+    }
+  ],
+  "admin":[
+    {
+      "username":"Anorak",
+      "password":"admin"
+    }
+  ]
+}

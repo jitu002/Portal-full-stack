@@ -1,0 +1,99 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student portal</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Aboreto">
+    <link href="styles.css" rel="stylesheet" />
+    <script src="./index.js"></script>
+    <script src="https://kit.fontawesome.com/6965fc2283.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">portal</div>
+            <ul class="navlist">
+                <li><a href="#home">Home</a><i class="fa-sharp fa-solid fa-house fa-beat-fade"></i></li>
+                <li><a href="#admission">New Admission</a><i class="fa-sharp fa-solid fa-school-flag fa-beat-fade"></i></li>
+                <li><a href="#signup">Login</a><i class="fa-sharp fa-solid fa-right-to-bracket fa-beat-fade"></i></li>
+                <li><a href="#contact">Info</a><i class="fa-sharp fa-solid fa-circle-info fa-beat-fade"></i></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="home">
+        <div class="intro">
+            <h1>WELCOME TO STUDENT <br><span>PORTAL</span></h1>
+            <h3>One stop solution to all your need</h3>
+        </div>
+    </div>
+    <div id="admission">
+        <div class="form-head">
+            <h1 class="adm">New Admission</h1>
+        </div>
+        <form id="survey-form" method="post" onsubmit="event.preventDefault();dataSubmit()">
+            <div class="inline">
+              <label>Name</label>
+              <input type="text" required id="name" class="form-control" placeholder="Your name">
+            </div>
+            <div class="inline">
+              <label>Email</label>
+              <input type="email" required id="email" placeholder="Your email with @" class="form-control">
+            </div>
+            <div class="inline">
+              <label>Age</label>
+              <input type="number" required id="age" placeholder="11" min="17" max="24" class="form-control">
+            </div>
+            <div class="inline">
+                <label>Year</label>
+                <input type="number" required id="class" placeholder="4" min="1" max="4" class="form-control">
+            </div>
+            <div class="inline">
+                <label>Subject</label>
+                <input type="number" required id="subject" placeholder="6" min="1" max="6" class="form-control">
+            </div>
+            <div class="inline">
+                <label>Username</label>
+                <input type="text" required id="usname" class="form-control" placeholder="Your Username">
+            </div>
+            <div class="inline">
+                <label>Create Password</label>
+                <input type="Password" required id="password" class="form-control" placeholder="Your password">
+            </div>
+            <div>
+                <button type="submit" class="btn-show-all" id="submit" form="survey-form">Submit<i class="fa-sharp fa-solid fa-chevron-right"></i></button>
+            </div>
+        </form>
+    </div>
+    <hr class="gradient" />
+    <div id="signup">
+        <div id="signupbox">
+            <h1>Login</h1>
+            <div class="inline">
+              <label>Email</label>
+              <input type="email" required id="email1" placeholder="Your email with @" class="form-control">
+            </div>
+            <div>
+                <label>Username</label>
+                <input type="text" required id="usname1" class="form-control" placeholder="Your Username">
+            </div>
+            <div class="inline">
+                <label>Password</label>
+                <input type="Password" required id="password1" class="form-control" placeholder="Your password">
+            </div>
+            <div>
+                <button type="submit" class="btn-show-all" id="submit" onclick="signIn()">Signin<i class="fa-sharp fa-regular fa-door-open "></i></button>
+            </div>
+        </div>
+    </div>
+    <footer id="contact">
+        <p>
+          **This is a fake Student portal developed for demonstrating technical knowledge**
+        </p>
+        <p>
+          &copy; Created for <br>
+          WORLD <i class="fa-sharp fa-solid fa-earth-asia fa-bounce"></i>
+          by CODEHUB with <i class="fa-sharp fa-regular fa-heart fa-flip"></i>
+        </p>
+      </footer> 
+</body>
+</html>

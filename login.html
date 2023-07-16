@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="./portal.js"></script>
+    <title>Portal</title>
+</head>
+<body class="tab">
+    <div class="logform">
+        <input type="text" id="lgname" placeholder="Enter your name">
+        <input type="email" id="lgemail" placeholder="Enter your email">
+        <input type="number" id="lgage" placeholder="Enter your age">
+        <input type="number" id="lgclass" placeholder="Enter your class">
+        <input type="number" id="lgsubject" placeholder="Enter your subject">
+        <input type="text" id="lgusrname" placeholder="Enter your username">
+        <input type="password" id="lgpassword" placeholder="Enter your password">
+    </div>
+    <button class="search" onclick="search()">Search</button>
+    <button class="search" onclick="admin()">Show All</button>
+    <td>
+        <!--Nested Table-->
+        <table class="list" id="stdlist" style="background-color: #C2976D;">
+            <!--Table Head-->
+            <thead>
+                <!--Row-2-->
+                <tr>
+                    <th>Full Name</th>
+                    <th>Email</th>
+                    <th>Age</th>
+                    <th>Year</th>
+                    <th>Subject</th>
+                    <th>Username</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <!--Table Body-->
+            <tbody>
+            </tbody>
+        </table>
+    </td>
+</body>
+</html>
