@@ -1,8 +1,8 @@
-# Portal-full-stack
+# Portal-full-stack.
 # A full stack website developed for accesing student details stored in a server.
-## Tech stack: 
-HTML,CSS,JavaScript,Json-Server.
-##Screen-shots:
+# Tech stack: HTML,CSS,JavaScript,Json-Server.
+
+## Screen shots ##
 #### Welcome page:
 ![Screenshot (28)](https://github.com/jitu002/Portal-full-stack/assets/104663159/bdf2cd66-893e-4388-a022-c80548458dad)
 
