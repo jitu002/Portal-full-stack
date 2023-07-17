@@ -9,6 +9,25 @@
     scroll-behavior: smooth;
     overflow-x: hidden;
   }
+  @media (max-width: 75em) {
+    html {
+      font-size: 60%;
+    }
+  }
+  
+  /* 980px / 16px = 61.25em */
+  @media (max-width: 61.25em) {
+    html {
+      font-size: 58%;
+    }
+  }
+  
+  /* 460px / 16px = 28.75em */
+  @media (max-width: 28.75em) {
+    html {
+      font-size: 55%;
+    }
+  }
   body {
     font-size: 1.8rem;
     font-weight: 400;
@@ -28,6 +47,15 @@ nav{
     box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
     z-index: 10;
 }
+@media (max-width: 28.75em) {
+    nav {
+      justify-content: center;
+    }
+  
+    .nav-list {
+      margin: 0 1rem;
+    }
+  }
 nav a{
     text-decoration: none;
     padding-right: 30px;
@@ -109,6 +137,11 @@ header nav {
     background-attachment: fixed;
     background-repeat: no-repeat;
  }
+@media (max-width: 30.625em) {
+  #home {
+    padding: 6rem 1rem;
+  }
+}
  #admission{
     display: flex;
     flex-direction: column;
@@ -123,6 +156,11 @@ header nav {
     background-repeat:no-repeat ;
     background-size:1900px 1200px ;
  }
+@media (max-width: 28.75em) {
+    .contact-section-header > h2 {
+      font-size: 4rem;
+    }
+  }
  .adm{
   font-family: Audiowide, sans-serif;
  }
@@ -250,6 +288,12 @@ button{
     padding: 2rem;
     background:#191d22;
     border-top: 4px solid  #be3144;
+  }
+@media (max-width: 28.75em) {
+    footer {
+      flex-direction: column;
+      text-align: center;
+    }
   }
   
   footer > p {
