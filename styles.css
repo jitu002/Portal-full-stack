@@ -420,8 +420,9 @@ hr.gradient{
 form{
   max-width: 190px;
   min-width: 50px;
-  margin-right: 200px;
+  margin-left: 50px;
   padding-left: 50px;
+  padding-right: 50px;
 }
 footer{
   margin-right: 0;
